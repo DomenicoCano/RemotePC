@@ -1,0 +1,34 @@
+# Binaries belong in GitHub Releases, never in git history
+*.apk
+*.aab
+*.exe
+*.dll
+*.pdb
+
+# Signing keys and local SDK paths
+*.jks
+*.keystore
+keystore.properties
+local.properties
+.env
+
+# Build artifacts & caches
+pc-host/bin/
+pc-host/obj/
+pc-host/publish/
+pc-host/publish-portable/
+
+android-app/.gradle/
+android-app/.kotlin/
+android-app/build/
+android-app/app/build/
+
+# IDE & OS
+.idea/
+*.iml
+.vs/
+*.user
+*.suo
+__pycache__/
+Thumbs.db
+Desktop.ini

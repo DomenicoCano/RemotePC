@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.RemotePC" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#38BDF8</item>
+        <item name="colorOnPrimary">#071826</item>
+        <item name="colorSurface">#12151E</item>
+        <item name="android:windowBackground">#0E1118</item>
+        <item name="android:statusBarColor">#0E1118</item>
+        <item name="android:navigationBarColor">#0E1118</item>
+    </style>
+
+    <style name="Theme.RemotePC.Fullscreen" parent="Theme.RemotePC">
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#0B0E14</item>
+    </style>
+</resources>
